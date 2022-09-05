@@ -11,9 +11,9 @@ kill - 9 pid#
 | Header | Title |
 | Paragraph | Text |
 
-testing out changes
+## Day 2 notes - networking
+ping -c4 - ping out
 
-# NEW NOTES 09/02
-test new notes 
+arp -a - sends arp out, associates IP addresses with MAC address
 
-\aslndalsdnjaslkjd
+netstat - shows informatino on connections
