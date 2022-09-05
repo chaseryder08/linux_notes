@@ -5,6 +5,10 @@ This is where I will keep track of my daily linux practice.
 # jobs
 kill - 9 pid#
 
+useradd - add users
+
+/etc/passwd - shows users 
+/etc/shadow - shows hashed passwords for users
 
 | Syntax | Description |
 | ----------- | ----------- |
