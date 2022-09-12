@@ -18,6 +18,62 @@ useradd - add users
 ## Day 2 notes - networking
 ping -c4 - ping out
 
-arp -a - sends arp out, associates IP addresses with MAC address
+*arp* -a - sends arp out, associates IP addresses with MAC address
 
-netstat - shows informatino on connections
+> _netstat_ - shows informatino on connections
+
+# 09/11 Notes
+
+
+# CHOWN - change file owner and group information
+
+# CHMOD - change file access permision r,w,x
+
+> OWNER / Group / Others
+
+## useradd - r tomcat
+
+>chown -R tomcat:tomcat /usr/local/tomcat
+>Gives permissions and ownership to Tomcat installation direction
+
+
+>In Unix and Linux, a daemon is a program that runs in the background without requiring any user interaction. The file name of a software daemon usually ends in the letter d.
+
+
+# net-tools - net-stat
+networking stats - shows open ports, 
+
+## netstat -nr
+> shows network routing table
+
+## netstat -ant 
+> shows sockets and stats
+
+## netstat -ai
+> shows satts on network interface configed
+
+## netstat -pnltu
+> shows services and coreresponding ports
+
+--------------------------
+
+# NMAP 
+> creates map of network by discovering host on which running.
+
+nmap 127.0.01
+
+or
+
+firewall-cmd --list-ports
+
+# 09/12 notes
+*Linux everything is a file*
+
+<li>bin - programs/binaries
+<li>boot - files needed for booting
+<li>etc - configuration files
+<li>home - directory
+<li>root - only root can access
+<li>lib - library files, software dependenceis
+<li>var - log files, 
+<li>proc - running processes
