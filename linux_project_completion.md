@@ -4,6 +4,7 @@
 - 171-[JAWS]-Lab - Creating Amazon EC2 Instances 
 - 173-[JAWS]-Activity: Troubleshoot Create Instance
 scripting JSON file to automate EC2 creation of LAMP stack for website.
+- Created EBS Snapshot via AWS-CLI (09/12)
 -troubleshoot bugs in script
 
 # 09/05 
