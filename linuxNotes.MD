@@ -2,18 +2,15 @@
 This is where I will keep track of my daily linux practice.
 
 ## Day 1
-# jobs
-kill - 9 pid#
+### kill - 9 pid#
 
 useradd - add users
 
 /etc/passwd - shows users 
 /etc/shadow - shows hashed passwords for users
 
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+# MV - move command
+can change name or move directors
 
 ## Day 2 notes - networking
 ping -c4 - ping out
@@ -72,8 +69,49 @@ firewall-cmd --list-ports
 <li>bin - programs/binaries
 <li>boot - files needed for booting
 <li>etc - configuration files
-<li>home - directory
+<li>home - directory (cd ~)
 <li>root - only root can access
 <li>lib - library files, software dependenceis
 <li>var - log files, 
 <li>proc - running processes
+
+ls /bin -- all programs, executables
+
+
+## TOP
+top -f - tells all active services running
+
+free -f - tells all space
+
+/proc/sys/kernel/pid_max - tells all PID running
+
+# 09/21
+Systemctl provides management for OS and services running. == OS configuration
+
+### Systemctl is for system management and service management
+
+> systemctl subcommand argument
+systemctl restart (servicename)
+
+systemctl reboot - reboots
+
+### systemctl shows all active services and sattuses
+
+systemctl list-units 
+systemctl list-units --type=service --state=active
+
+systemctl start {service_name}
+systemctl stop **
+systemctl restart **
+systemctl disable **
+
+systemctl mask ** (if service stoped, can also be stopped by other service, tihs prevents service from starting*)
+
+systemctl kill ** (prefer not to kill, but diable)
+
+## service sshd status
+> check status of service runnings
+
+systemctl enable (service)
+systemctl status **
+service ** status
