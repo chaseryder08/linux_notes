@@ -110,8 +110,42 @@ systemctl mask ** (if service stoped, can also be stopped by other service, tihs
 systemctl kill ** (prefer not to kill, but diable)
 
 ## service sshd status
+OR
+
+# systemctl status sshd.service
 > check status of service runnings
 
 systemctl enable (service)
 systemctl status **
 service ** status
+
+# systemctl list-unit-files
+lists all services running 
+
+# notes 09/30
+
+## find vs locate command
+find can search - . (dir), /  - whole system, or ~ - home folder
+> find <location/director> <options> <search>
+
+<li> find . -name my-file</li>
+<li>find . -iname my-file</li>
+
+## LOCATE
+
+# 10/02
+
+## ps - snapshot of processes
+## top - show real time processes
+
+## kill pid - kill process with id
+> pkill name - will process with name
+> killall name - kill all w/ names beginningq
+
+# Notes 10/13
+
+> A symlink is a symbolic Linux/ UNIX link that points to another file or folder on your computer, or a connected file system. This is similar to a Windows shortcut. Symlinks can take two forms: Soft links are similar to shortcuts, and can point to another file or directory in any file system.
+
+## register redhat 
+> sudo subscription-manager register --username *** --password
+
