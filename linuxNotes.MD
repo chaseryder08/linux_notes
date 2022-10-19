@@ -149,3 +149,44 @@ find can search - . (dir), /  - whole system, or ~ - home folder
 ## register redhat 
 > sudo subscription-manager register --username *** --password
 
+### Which 
+> tells where the sym link is 
+* which aws -- tell path for sym link
+
+## ZONES
+> Firewalld is a zone-based firewall: each zone can be configured to accept or deny some services or ports, and therefore with a different level of security. Zones can be associated with one or more network interfaces. Usually firewalld comes with a set of preconfigured zones: to list this zones, and more generally to interact with the firewall, we will use the firewall-cmd utility.
+
+
+> firewall-cmd --get-zones
+
+# Wildcards
+'*
+-matches zero or more characters
+> *.txt
+> a*
+> a*.txt
+
+## ?
+-matches exactly one character
+* ?.txt
+* a?
+* a?.txt
+
+# Notes 10/16 SAM CLI   
+### sam init
+> creates directory with name 
+
+### sam build
+> builds dependencies and copies source code into staging folders
+
+### sam deploy --guided
+> This command deploys your application to the AWS Cloud. It takes the deployment artifacts that you build with the sam build command, packages and uploads them to an Amazon Simple Storage Service (Amazon S3) bucket that the AWS SAM CLI creates, and deploys the application using AWS CloudFormation. In the output of the sam deploy command, you can see the changes being made to your AWS CloudFormation stack.
+
+# Notes 10/19
+## AWS CLI
+aws s3 ls 
+> shows list of bucket
+
+aws s3 cp <location> <destination>
+>copy download fils from bucket
+
