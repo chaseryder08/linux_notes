@@ -1,0 +1,18 @@
+Dynamo DB
+
+manager noSQL DB optimized for performance at scale
+high availabilty and durability
+know access patterns
+acces through Dynamo through API/ORM authorized through IAM
+
+tables are collections of items
+
+items are every row
+columns are attributes
+
+items are collections of attributes, or key/value pairs
+can store .json 
+
+Partition key | Sort Key
+
+https://github.com/aws/aws-sam-cli/releases/latest/download/aws-sam-cli-linux-x86_64.zip

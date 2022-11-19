@@ -1,0 +1,55 @@
+ 419  sudo subscription-manager repos --enable codeready-builder-for-rhel-8-x86_64-rpms
+  420  sudo yum install -y links
+  421  clear
+  422  links 127.0.0.1
+  423  sudo links 127.0.0.1
+  424  sudo links 127.0.01
+  425  sudo links -version
+  426  sudo links --version
+  427  links
+  428  sudo systemctl all
+  429  sudo systemctl
+  430  sudo yum install links
+  431  elinks 127.0.0.1
+  432  yum command
+  433  df command
+  434  sudo yum install dnf-command
+  435  sudo yum install command
+  436  sudo df command
+  437  du command
+  438  df
+  439  sudo systemctl status elinks
+  440  sudo systemctl status
+  441  clear
+  442  free -m
+  443  ps -e -L -f
+  444  du
+  445  free
+  446  sudo systemctl stop httpd
+  447  sudo systemctl status
+  448  sudo systemctl status httpd
+  449  sudo yum install links
+  450  free
+  451  cat proc/sys/kernel/pid_max
+  452  cd proc
+  453  cd sys
+  454* cd /sys/ker
+  455  cat /proc/sys/kernel/pid_max
+  456  cat /var/log/sa/sar15
+  457  ls /var/log/sa/sar15
+  458  ls /var/log/sa
+  459  ls /var/log
+  460  top
+  461  sudo systemctl status tomcat
+  462  sudo systemctl stop tomcat
+  463  free
+  464  sudo yum install -y elinks
+  465  history
+  466  cat proc/sys/kernel/pid_max
+  467  cat /proc/sys/kernel/pid_max
+  468  link 127.0.0.1
+  469  link --help
+  470  man link
+  471  links 127.0.0.1
+  472  clear
+  473  history

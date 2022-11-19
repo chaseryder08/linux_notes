@@ -1,0 +1,8 @@
+CS50
+
+ASCII - computer language that converts numbers and letters
+
+Unicode-  mapping numbers to letters, in many languages
+emojis
+chinese characters
+*solution to ASCII*
